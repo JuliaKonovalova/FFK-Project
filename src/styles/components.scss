@@ -1,0 +1,87 @@
+@import './vars.scss';
+
+//BTN styles
+.btn {
+    padding: 25px 99px;
+    border: 1px solid rgba(255, 255, 255, 0.36);
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    color: #ffff;
+    letter-spacing: 10%;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ffff;
+    color: $primary;
+}
+
+
+//H1
+h1 {
+    font-size: 72px;
+    color: #fff;
+    line-height: 75px;
+}
+
+//H5
+h5 {
+    font-size: 30px;
+    color: $secondary;
+    line-height: 36.57px;
+}
+
+
+//Paragraph
+p {
+    font-size: 16px;
+    color: #fff;
+    line-height: 26px;
+}
+
+
+//Card 
+.grid__card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /*3-количество колонок,  */
+    grid-column-gap: 25px;
+    /*расстояние между колнками*/
+    grid-row-gap: 25px;
+    /*расстояние между строками*/
+
+
+}
+
+.logo{
+width:126.76px ; 
+height: 50px; 
+background-image: url(../img/Logo.png);
+}
+
+.grid-item {
+    
+    position: relative;
+    border: 1px solid $grey;
+    margin: 30px;
+    text-align: left;
+    padding: 40px 40px 40px 0;
+
+}
+
+//снаружи грид  - внутри флекс
+
+// .grid-content::before {
+//     content: url(../img/vector-homepage-aboutUs/Group\ 7.png);
+//     position: absolute;
+//     margin: 0 auto;
+//     left: -50px;
+//     top: 50%;
+//     transform: translateY(-50%);
+    
+// }
+// .grid-content{
+//     position: relative;
+//}
