@@ -1,2 +1,15 @@
-# FFK Logisticks
-[Maket] (<https://www.figma.com/file/NDam6tvZOr8uE6O4EJAOcI/3258_FFK_Logistic-(Copy)?node-id=405%3A5081&t=3iKehFL3bpBBFV70-0>)
+# 🚀 Welcome to your new awesome project!
+
+This project has been created using **webpack-cli**, you can now run
+
+```
+npm run build
+```
+
+or
+
+```
+yarn build
+```
+
+to bundle your application
